@@ -536,7 +536,7 @@ function removeToken() {
 // ─────────────────────────────────────────
 function connectBackend() {
   if (C.backendWs) { try { C.backendWs.close(); } catch(_){} }
-  const wsUrl = 'wss://deriv-bot-pexb.onrender.com';
+  const wsUrl = 'wss://for-my-self.onrender.com';
   log('Connecting to backend: ' + wsUrl, 'info');
   C.backendWs = new WebSocket(wsUrl);
 
